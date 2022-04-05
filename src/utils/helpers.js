@@ -1,7 +1,5 @@
 //helper files
 
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
-
 export function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
